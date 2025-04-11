@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #fef8e7; /* light pastel gold */
+    height: 100vh;
   }
 
   .navbar {
@@ -333,6 +334,11 @@ body {
         height: 1750px;
       }
 
+      .category-section{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px;
+      }
+
       .bottom-nav{
         display: contents;
     }
@@ -428,6 +434,9 @@ body {
       .header-image{
         width: 230px;
       }
+
+
+
       
 
 
