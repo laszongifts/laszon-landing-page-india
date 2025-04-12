@@ -141,6 +141,16 @@
   
   /* Responsive: 2 per row on smaller screens */
   @media (max-width: 768px) {
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fffdf5; /* Pastel gold tone */
+      color: #333;
+      margin: 0;
+      padding: 0;
+      height: 1500px;
+    }
+
     .product-section {
       grid-template-columns: repeat(2, 1fr);
       padding: 30px;

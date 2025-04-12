@@ -141,6 +141,17 @@
   
   /* Responsive: 2 per row on smaller screens */
   @media (max-width: 768px) {
+
+    body {
+      background-color: #fffdf5; /* Pastel gold tone */
+      color: #333;
+      height: 1500px;
+      margin: 0;
+      padding: 0;
+    }
+
+
+
     .product-section {
       grid-template-columns: repeat(2, 1fr);
       padding: 30px;
